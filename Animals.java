@@ -1,5 +1,5 @@
-public class Animals {
+public class Animals extends LivingThings {
     public Aniamls() {
-        
+        super();
     }
 }
