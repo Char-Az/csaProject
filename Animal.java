@@ -1,5 +1,5 @@
-public class Animals extends LivingThings {
-    public Animals(int birthYear) {
+public class Animal extends LivingThings {
+    public Animal(int birthYear) {
         super(birthYear);
     }
     public int calculateAge() {
@@ -11,7 +11,7 @@ public class Animals extends LivingThings {
     public int reproduce(int numOffspring) {
         return numOffspring;
     }
-    public String makeSound() {
-        return "Animal sound";
+    public void makeSound() {
+        System.out.print("Animal sound");
     }
 }
