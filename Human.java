@@ -16,7 +16,7 @@ public class Human extends Animal {
         return name;
     }
 
-    public void makeSound(String name) {
+    public void makeSound() {
         System.out.println("My name is " + name);
     }
 
