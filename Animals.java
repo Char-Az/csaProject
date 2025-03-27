@@ -1,5 +1,5 @@
 public class Animals extends LivingThings {
-    public Aniamls() {
-        super();
+    public Aniamls(int birthYear) {
+        super(birthYear);
     }
 }
