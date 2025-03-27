@@ -1,4 +1,4 @@
-public class Human extends Animals {
+public class Human extends Animal {
     private String region;
 
     public Human(int birthYear, String region) {
