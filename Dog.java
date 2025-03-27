@@ -1,4 +1,4 @@
-public class Dog extends Animals {
+public class Dog extends Animal {
     private String name;
 
     public Dog(int birthYear, String name) {
