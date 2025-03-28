@@ -11,8 +11,10 @@ public class Animal extends LivingThings {
         return "Eating " + food;
     }
 
-    public int reproduce(int numOffspring) {
-        return numOffspring;
+    public void reproduce(int numOffspring, String name[]) {
+        for (int i = 0; i < numOffspring; i++){
+            System.out.println("Giving birth to " + name[i] + " offspring.");
+        }
     }
 
     public void makeSound() {
